@@ -1,3 +1,23 @@
+## Task
+
+I created two json files, there are names and numbers and in the other files there are ages.
+Firstly I load two json files, If they have same id, I merge them into one array.
+Then I filter them. If the employee is younger than 30 years old, I prepere html for it,
+Finally I print to the page.
+
+In order to run, you may need to install http-server (globally)
+
+This command will start http-server, so we can load json files into the page without problem
+```
+npm start
+```
+
+For the development, in order to compile js file
+```
+npm run webpack
+```
+
+
 ## Give a few reasons why separating state is useful
 
 I think, separating state is useful because we would have new layers or components. Let me give an example; In React we separate the state and lifecycle methods from the component. So we have presentational (dumb) and container (smart) components. This approach allows us to have better usability of components, logic is separated from the design part. State can easily be tested.
